@@ -1,0 +1,35 @@
+section#section_1 {
+    height: 650px;
+}
+
+.slider_main {
+    background: linear-gradient(#ffff(0, 0, 0, 0.7),#ffff(0,0,0,.7)), url(../images/header-background.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes slide {
+    0% {
+        background-image: url('C:\Users\shrut\OneDrive\Documents\lp\images\DSU 1.jpg');
+    }
+    20% {
+        background-image: url('C:\Users\shrut\OneDrive\Documents\lp\images\DSU 1.jpg');
+    }
+    25% {
+        background-image: url('C:\Users\shrut\OneDrive\Documents\lp\images\U88A7955.jpg');
+    }
+    40% {
+        background-image: url('C:\Users\shrut\OneDrive\Documents\lp\images\U88A7955.jpg');
+    }
+    45% {
+        background-image: url('C:\Users\shrut\OneDrive\Documents\lp\images\U88A8160.jpg');
+    }
+    60% {
+        background-image: url('C:\Users\shrut\OneDrive\Documents\lp\images\U88A8160.jpg');
+    }
+}
+
+svg.bi.bi-1-circle-fill, svg.bi.bi-2-circle-fill, svg.bi.bi-3-circle-fill, svg.bi.bi-4-circle-fill {
+    fill: #68b437;
+}
